@@ -83,6 +83,7 @@ from sftp_attr import SFTPAttributes
 from sftp_handle import SFTPHandle
 from sftp_si import SFTPServerInterface
 from sftp_file import SFTPFile
+from scp import SCPClient, SCPException
 from message import Message
 from packet import Packetizer
 from file import BufferedFile
@@ -132,6 +133,8 @@ __all__ = [ 'Transport',
             'SFTPError',
             'SFTPAttributes',
             'SFTPServerInterface',
+            'SCPCLient',
+            'SCPException',
             'ServerInterface',
             'BufferedFile',
             'Agent',
